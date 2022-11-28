@@ -1,0 +1,23 @@
+Online Test - Rukun (CRUD)
+
+Berikut saya lampirkan source code backend beserta database.
+
+* Untuk contoh Rest API dengan OAuth2 menggunakan laravel passport
+  contoh pembuatan API 
+  - login : http://127.0.0.1:8000/api/login
+    email : fajar@rukun.id
+    password : Admin!1
+  - CRUD 
+    Create : http://127.0.0.1:8000/api/addUser 
+    Read : http://127.0.0.1:8000/api/getUser
+    Update : http://127.0.0.1:8000/api/updateUser/4
+    Delete : http://127.0.0.1:8000/api/delete/5
+
+* noted : disetiap API CRUD menggunakan token pada saat akan mengeksekusi API
+  - Login terlebih dahulu agar mendapatkan akses token, lalu copy / simpan token ke notepad.
+  - Jika menggunakan postman pada kolom header bisa di input :
+    Authorization : Bearer (token)
+    Accept : application/json	
+    Methode : GET
+    API : http://127.0.0.1:8000/api/getUser    
+  
